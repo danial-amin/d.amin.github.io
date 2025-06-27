@@ -83,17 +83,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/plotly/";
           
         },
-      },{id: "post-the-hidden-costs-of-ai-development-what-i-39-ve-learned-working-across-global-tech-ecosystems",
-        
-          title: "The Hidden Costs of AI Development - What I&#39;ve Learned Working Across Global...",
-        
-        description: "Through my work as an AI Tech Lead across startups, enterprises, and government projects spanning Pakistan, the US, Ireland, and France, I&#39;ve witnessed firsthand how the current AI development paradigm creates unequal relationships between technology-producing and technology-consuming regions.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/AI-Ethics/";
-          
-        },
       },{id: "post-a-post-with-image-galleries",
         
           title: "a post with image galleries",
