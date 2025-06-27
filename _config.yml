@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Human Centered AI Scientist-Danial AMIN # the website title (if blank, full name will be used instead)
+title:  # the website title (if blank, full name will be used instead)
 first_name: Danial
 middle_name: 
 last_name: Amin
@@ -192,9 +192,9 @@ exclude:
   - readme_preview/
   - vendor
   - _pages/teaching.md
-  - _pages/submenus.md
+  - _pages/dropdown.md
   - _pages/repositories.md
-  - _pages/people.md
+  - _pages/profile.md
 keep_files:
   - CNAME
   - .nojekyll
@@ -268,7 +268,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Amin]
-  first_name: [D.]
+  first_name: [D.,Danial]
 
   style: apa
   locale: en
