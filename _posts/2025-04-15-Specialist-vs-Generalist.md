@@ -4,7 +4,7 @@ title: From Generalist to Specialist - The Case for Persona-Driven AI Architectu
 description: Despite advances in generative AI capabilities, enterprises continue to struggle with generic AI systems that lack specialized expertise in critical domains. This research-backed framework explores how purpose-built, persona-driven AI agents can replace monolithic generalist systems.
 tags: ai architecture personas multi-agent systems enterprise-ai
 giscus_comments: true
-date: 2025-04-15
+date: 2025-04-16
 featured: true
 
 authors:
