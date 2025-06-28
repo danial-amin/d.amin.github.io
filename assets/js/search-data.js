@@ -30,18 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-a-post-with-plotly-js",
-        
-          title: "a post with plotly.js",
-        
-        description: "this is what included plotly.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/plotly/";
-          
-        },
-      },{id: "post-the-hidden-costs-of-ai-development-what-i-39-ve-learned-working-across-global-tech-ecosystems",
+        },{id: "post-the-hidden-costs-of-ai-development-what-i-39-ve-learned-working-across-global-tech-ecosystems",
         
           title: "The Hidden Costs of AI Development - What I&#39;ve Learned Working Across Global...",
         
@@ -50,6 +39,28 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/AI-Ethics/";
+          
+        },
+      },{id: "post-from-generalist-to-specialist-the-case-for-persona-driven-ai-architecture",
+        
+          title: "From Generalist to Specialist - The Case for Persona-Driven AI Architecture",
+        
+        description: "Despite advances in generative AI capabilities, enterprises continue to struggle with generic AI systems that lack specialized expertise in critical domains. This research-backed framework explores how purpose-built, persona-driven AI agents can replace monolithic generalist systems.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/Specialist-vs-Generalist/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
+        
+          title: "a post with plotly.js",
+        
+        description: "this is what included plotly.js code could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/plotly/";
           
         },
       },{id: "post-a-post-with-image-galleries",
