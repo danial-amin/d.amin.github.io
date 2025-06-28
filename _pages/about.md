@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://personateam.xyz/members/'>Affiliations</a>. Fairness in User Representation, Personas for Social Good, GenAI Personas, Global South .
+subtitle: Fairness in User Representation, Personas for Social Good, GenAI Personas, Global South .
 profile:
   align: right
   image: prof_pic.jpg
@@ -24,7 +24,7 @@ latest_posts:
 ---
 
 <div id="bio-short">
-I am a <a href="#">doctoral student</a> at the University of Vaasa, Finland, focusing on <a href="#">Generative AI (GenAI) and user representation research</a>. Tandemly, I work as an AI Research Scientist at <a href="#">Samsung Design Innovation Center in France</a>, developing GenAI tools that help designers create more representative products.
+I am a <a href="#">doctoral student</a> at the <a href="https://personateam.xyz/members/" target=blank>University of Vaasa, Finland</a>, under the supervision of <a href="https://jonisalminen.com/" target=blank>Dr. Joni Salminen</a> focusing on <a href="#">Generative AI (GenAI) and user representation research</a>. Tandemly, I work as an AI Research Scientist at <a href="#">Samsung Design Innovation Center in France</a>, developing GenAI tools that help designers create more representative products.
 
 <button id="read-more-btn" onclick="expandBio()" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; padding: 8px 16px; border-radius: 20px; cursor: pointer; font-size: 14px; margin-top: 10px; transition: all 0.3s ease;">Read More</button>
 </div>
