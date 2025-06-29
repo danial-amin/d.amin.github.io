@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-the-hidden-costs-of-ai-development-what-i-39-ve-learned-working-across-global-tech-ecosystems",
+        },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/2025-06-29-yes-man/";
+          
+        },
+      },{id: "post-the-hidden-costs-of-ai-development-what-i-39-ve-learned-working-across-global-tech-ecosystems",
         
           title: "The Hidden Costs of AI Development - What I&#39;ve Learned Working Across Global...",
         
@@ -83,6 +94,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/titans/";
+          
+        },
+      },{id: "post-deepseek-r1-39-s-game-changing-approach-to-parameter-activation-what-industry-needs-to-know",
+        
+          title: "DeepSeek R1&#39;s Game-Changing Approach to Parameter Activation - What Industry Needs to Know...",
+        
+        description: "The recent release of DeepSeek R1 challenges our conventional understanding of large language model deployment. While most discussions center around scaling parameters and computing power, DeepSeek&#39;s approach introduces a radical shift in how we think about model architecture and deployment efficiency.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/deepseek/";
           
         },
       },{id: "books-the-godfather",
