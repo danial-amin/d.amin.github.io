@@ -11,7 +11,7 @@ authors:
   - name: Danial Amin
     url: "https://linkedin.com/in/danial-amin"
     affiliations:
-      name: AI RS @ Samsung | Trustworthy AI | Large Language Models (LLM) | Explainable AI
+      name: Samsung Design Innovation Center, France
 
 bibliography: 2025-03-05-managing-executive-expectations-genai.bib
 
