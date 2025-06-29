@@ -52,26 +52,37 @@ ninja.data = [{
             window.location.href = "/blog/2025/Specialist-vs-Generalist/";
           
         },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+      },{id: "post-rag-finetuning-and-prompt-engineering-extending-the-capabilities-of-llms",
         
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: "RAG, Finetuning, and Prompt Engineering - Extending the Capabilities of LLMs",
         
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
+        description: "Large Language Models have revolutionized AI with their ability to understand and generate human-like text. However, these models have inherent limitations in their knowledge and capabilities. This comprehensive guide explores three key techniques that have emerged to address these limitations and extend LLM capabilities.",
         section: "Posts",
         handler: () => {
           
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
+            window.location.href = "/blog/2025/RAG-works/";
           
         },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
+      },{id: "post-managing-executive-expectations-for-generative-ai-bridging-the-reality-gap",
         
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: "Managing Executive Expectations for Generative AI - Bridging the Reality Gap",
         
-        description: "",
+        description: "Generative AI has become a frequent topic of strategic discussions in boardrooms across industries. While the technology offers remarkable capabilities, there&#39;s often a significant gap between executive expectations and practical realities. This guide provides a framework for aligning AI implementation with business realities.",
         section: "Posts",
         handler: () => {
           
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
+            window.location.href = "/blog/2025/expectations/";
+          
+        },
+      },{id: "post-titans-the-next-quot-attention-is-all-you-need-quot-moment-for-llm-architecture",
+        
+          title: "Titans - The Next &quot;Attention is All You Need&quot; Moment for LLM Architecture...",
+        
+        description: "Google Research&#39;s new paper &quot;Titans - Learning to Memorize at Test Time&quot; may represent a watershed moment in AI architecture, addressing the fundamental scaling limitations that have plagued current LLM architectures. This breakthrough could trigger the next wave of architectural innovation in foundation models.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/titans/";
           
         },
       },{id: "books-the-godfather",

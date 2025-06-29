@@ -235,172 +235,177 @@ fig3.update_layout(title='Implementation Roadmap Timeline (Days)',
                    xaxis_title='Days', yaxis_title='Phase')
 fig3.write_html('assets/plotly/implementation-phases.html')
 
+
 # Create the Persona Architecture Model
 fig = go.Figure()
 
-# Define positions for different components
-user_layer = {'y': 5, 'color': '#e3f2fd'}
-orchestration_layer = {'y': 4, 'color': '#bbdefb'}
-persona_layer = {'y': 2.5, 'color': '#90caf9'}
-foundation_layer = {'y': 1, 'color': '#64b5f6'}
-
-# Define components with positions
+# Define positions for different components with better spacing
 components = {
     # User Layer
-    'User Interface': (2, user_layer['y'], user_layer['color']),
+    'User<br>Interface': (2, 5, '#e3f2fd', 80),
     
     # Orchestration Layer
-    'Query Router': (1, orchestration_layer['y'], orchestration_layer['color']),
-    'Context Manager': (2, orchestration_layer['y'], orchestration_layer['color']),
-    'Response Aggregator': (3, orchestration_layer['y'], orchestration_layer['color']),
+    'Query<br>Router': (0.8, 4, '#bbdefb', 70),
+    'Context<br>Manager': (2, 4, '#bbdefb', 70),
+    'Response<br>Aggregator': (3.2, 4, '#bbdefb', 70),
     
     # Persona Layer
-    'Legal AI\nPersona': (0.5, persona_layer['y'], persona_layer['color']),
-    'Medical AI\nPersona': (1.5, persona_layer['y'], persona_layer['color']),
-    'Financial AI\nPersona': (2.5, persona_layer['y'], persona_layer['color']),
-    'Technical AI\nPersona': (3.5, persona_layer['y'], persona_layer['color']),
+    'Legal AI<br>Persona': (0.5, 2.5, '#90caf9', 80),
+    'Medical AI<br>Persona': (1.5, 2.5, '#90caf9', 80),
+    'Financial AI<br>Persona': (2.5, 2.5, '#90caf9', 80),
+    'Technical AI<br>Persona': (3.5, 2.5, '#90caf9', 80),
     
     # Foundation Layer
-    'Foundation Models': (1, foundation_layer['y'], foundation_layer['color']),
-    'Knowledge Bases': (2, foundation_layer['y'], foundation_layer['color']),
-    'Tool APIs': (3, foundation_layer['y'], foundation_layer['color'])
+    'Foundation<br>Models': (1, 1, '#64b5f6', 70),
+    'Knowledge<br>Bases': (2, 1, '#64b5f6', 70),
+    'Tool<br>APIs': (3, 1, '#64b5f6', 70)
 }
 
 # Add layer backgrounds
-for layer_name, layer_info in [
-    ('User Interface Layer', user_layer),
-    ('Orchestration Layer', orchestration_layer), 
-    ('Specialized Persona Layer', persona_layer),
-    ('Foundation Layer', foundation_layer)
-]:
+layers = [
+    ('User Interface Layer', 5, '#e3f2fd'),
+    ('Orchestration Layer', 4, '#bbdefb'), 
+    ('Specialized Persona Layer', 2.5, '#90caf9'),
+    ('Foundation Layer', 1, '#64b5f6')
+]
+
+for layer_name, y_pos, color in layers:
     fig.add_shape(
         type="rect",
-        x0=-0.2, y0=layer_info['y']-0.3,
-        x1=4.2, y1=layer_info['y']+0.3,
-        fillcolor=layer_info['color'],
-        opacity=0.3,
-        line=dict(width=0)
+        x0=-0.2, y0=y_pos-0.35,
+        x1=4.2, y1=y_pos+0.35,
+        fillcolor=color,
+        opacity=0.2,
+        line=dict(width=1, color=color)
     )
 
-# Add components
-for component, (x, y, color) in components.items():
+# Add components with proper text formatting
+for component, (x, y, color, size) in components.items():
+    # Determine shape based on component type
+    symbol = 'square' if 'Persona' in component else 'circle'
+    
     fig.add_trace(go.Scatter(
         x=[x], y=[y],
         mode='markers+text',
         marker=dict(
-            size=60 if 'Persona' in component else 50,
+            size=size,
             color=color,
-            line=dict(width=2, color='darkblue'),
-            symbol='square' if 'Persona' in component else 'circle'
+            line=dict(width=2, color='#1976d2'),
+            symbol=symbol
         ),
         text=component,
         textposition='middle center',
-        textfont=dict(size=9, color='black', family='Arial'),
+        textfont=dict(
+            size=10, 
+            color='black', 
+            family='Arial Bold'
+        ),
         showlegend=False,
         hoverinfo='text',
-        hovertext=component
+        hovertext=component.replace('<br>', ' ')
     ))
 
-# Add connections/arrows
+# Add connections with cleaner arrows
 connections = [
     # User to Orchestration
-    ('User Interface', 'Query Router'),
-    ('User Interface', 'Context Manager'),
-    ('User Interface', 'Response Aggregator'),
+    (2, 5, 0.8, 4),  # User Interface to Query Router
+    (2, 5, 2, 4),    # User Interface to Context Manager
+    (2, 5, 3.2, 4),  # User Interface to Response Aggregator
     
     # Orchestration to Personas
-    ('Query Router', 'Legal AI\nPersona'),
-    ('Query Router', 'Medical AI\nPersona'),
-    ('Query Router', 'Financial AI\nPersona'),
-    ('Query Router', 'Technical AI\nPersona'),
+    (0.8, 4, 0.5, 2.5),  # Query Router to Legal AI
+    (0.8, 4, 1.5, 2.5),  # Query Router to Medical AI
+    (2, 4, 2.5, 2.5),    # Context Manager to Financial AI
+    (3.2, 4, 3.5, 2.5),  # Response Aggregator to Technical AI
     
     # Personas to Foundation
-    ('Legal AI\nPersona', 'Foundation Models'),
-    ('Medical AI\nPersona', 'Foundation Models'),
-    ('Financial AI\nPersona', 'Knowledge Bases'),
-    ('Technical AI\nPersona', 'Tool APIs'),
+    (0.5, 2.5, 1, 1),    # Legal AI to Foundation Models
+    (1.5, 2.5, 1, 1),    # Medical AI to Foundation Models
+    (2.5, 2.5, 2, 1),    # Financial AI to Knowledge Bases
+    (3.5, 2.5, 3, 1),    # Technical AI to Tool APIs
 ]
 
-for start, end in connections:
-    x0, y0, _ = components[start]
-    x1, y1, _ = components[end]
-    
-    # Add arrow
+for x0, y0, x1, y1 in connections:
     fig.add_annotation(
         x=x1, y=y1,
         ax=x0, ay=y0,
         xref='x', yref='y',
         axref='x', ayref='y',
         arrowhead=2,
-        arrowsize=1,
-        arrowwidth=1.5,
+        arrowsize=1.2,
+        arrowwidth=2,
         arrowcolor='#1976d2',
-        opacity=0.7
+        opacity=0.6
     )
 
-# Add layer labels
-layer_labels = [
-    ('User Interface Layer', 4.5, user_layer['y']),
-    ('Orchestration Layer', 4.5, orchestration_layer['y']),
-    ('Specialized Persona Layer', 4.5, persona_layer['y']),
-    ('Foundation Layer', 4.5, foundation_layer['y'])
+# Add layer labels on the right side
+for layer_name, y_pos, color in layers:
+    fig.add_annotation(
+        x=4.6, y=y_pos,
+        text=f"<b>{layer_name}</b>",
+        showarrow=False,
+        font=dict(size=11, color='#1976d2', family='Arial'),
+        textangle=0,
+        xanchor='left'
+    )
+
+# Add flow direction indicators
+flow_annotations = [
+    (4.8, 4.5, "User Query"),
+    (4.8, 3.25, "Route & Process"),
+    (4.8, 1.75, "Specialized Response"),
+    (4.8, 0.5, "Foundation Resources")
 ]
 
-for label, x, y in layer_labels:
+for x, y, text in flow_annotations:
     fig.add_annotation(
         x=x, y=y,
-        text=label,
-        showarrow=False,
-        font=dict(size=12, color='#1976d2', family='Arial Black'),
-        textangle=-90
+        text=text,
+        showarrow=True,
+        arrowhead=1,
+        arrowsize=0.8,
+        arrowwidth=1,
+        arrowcolor='#424242',
+        ax=x-0.3, ay=y,
+        font=dict(size=9, color='#424242'),
+        xanchor='left'
     )
 
 # Update layout
 fig.update_layout(
     title={
-        'text': 'Persona-Driven AI Architecture Model',
+        'text': '<b>Persona-Driven AI Architecture Model</b>',
         'x': 0.5,
-        'font': {'size': 16, 'family': 'Arial Black'}
+        'font': {'size': 18, 'family': 'Arial', 'color': '#1976d2'}
     },
     showlegend=False,
     xaxis=dict(
         showgrid=False, 
         showticklabels=False, 
         zeroline=False,
-        range=[-0.5, 5]
+        range=[-0.5, 6]
     ),
     yaxis=dict(
         showgrid=False, 
         showticklabels=False, 
         zeroline=False,
-        range=[0.5, 5.5]
+        range=[0.3, 5.7]
     ),
     plot_bgcolor='white',
     paper_bgcolor='white',
-    width=800,
-    height=600,
-    margin=dict(l=50, r=100, t=80, b=50)
+    width=900,
+    height=700,
+    margin=dict(l=50, r=150, t=100, b=50)
 )
 
-# Add description boxes
-descriptions = [
-    "Users interact through a unified interface",
-    "Smart routing and context management",
-    "Domain-specific AI experts",
-    "Shared computational resources"
-]
-
-for i, desc in enumerate(descriptions):
-    fig.add_annotation(
-        x=-0.3, y=5-i*1.25,
-        text=desc,
-        showarrow=False,
-        font=dict(size=10, color='#424242'),
-        align='left',
-        bgcolor='rgba(255,255,255,0.8)',
-        bordercolor='#bdbdbd',
-        borderwidth=1
-    )
+# Add a subtitle
+fig.add_annotation(
+    x=2, y=5.5,
+    text="Layered approach to specialized AI with orchestrated persona management",
+    showarrow=False,
+    font=dict(size=12, color='#666666', family='Arial'),
+    xanchor='center'
+)
 
 # Save the figure
 fig.write_html('assets/plotly/persona-architecture.html')
