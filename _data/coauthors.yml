@@ -1,34 +1,55 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"salminen":
+  - firstname: ["Joni", "J."]
+    url: https://personateam.xyz/members/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"jansen":
+  - firstname: ["Bernard", "B."]
+    url: https://personateam.xyz/members/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"ahmed":
+  - firstname: ["Farhan", "F.","Usama", "U.","Faaiz", "F."]
+    url: https://personateam.xyz/members/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"tervola":
+  - firstname: ["M.H. S.", "Sonja"]
+    url: 
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"sethi":
+  - firstname: ["Sankalp", "S."]
+    url: 
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"shin":
+  - firstname: ["Joongi", "J."]
+    url: #
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"kim":
+  - firstname: ["Dong Hun", "D. H."]
+    url: #
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"kaate":
+  - firstname: ["Ilkka", "I."]
+    url: https://personateam.xyz/members/
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"akhtar":
+  - firstname: ["Waleed", "W."]
+    url: https://personateam.xyz/members/
+
+"alqadi":
+  - firstname: ["Laeeq", "L."]
+    url: #
+
+"jung":
+  - firstname: ["Soon-gyo", "S."]
+    url: #
+
+"alabed":
+  - firstname: ["Amani", "A."]
+    url: #
+
+"naqvi":
+  - firstname: ["Najam", "N."]
+    url: https://www.ist.edu.pk/najam-abbas-naqvi
+
+"malik":
+  - firstname: ["Faizan", "F."]
+    url: #

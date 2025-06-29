@@ -6,20 +6,38 @@ layout: default
     <header class="post-header">
       <h1 class="post-title">
         {{ page.title }}
-        {% if page.cv_pdf %}
-          <a
-            {% if page.cv_pdf contains '://' %}
-              href="{{ page.cv_pdf }}"
-            {% else %}
-              href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
-            {% endif %}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="float-right"
-          >
-            <i class="fa-solid fa-file-pdf"></i>
-          </a>
-        {% endif %}
+        <div class="float-right">
+          {% if page.cv_pdf %}
+            <a
+              {% if page.cv_pdf contains '://' %}
+                href="{{ page.cv_pdf }}"
+              {% else %}
+                href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+              {% endif %}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-sm btn-outline-primary me-2"
+              title="Download Academic CV"
+            >
+              <i class="fa-solid fa-file-pdf"></i> Academic
+            </a>
+          {% endif %}
+          {% if page.professional_cv_pdf %}
+            <a
+              {% if page.professional_cv_pdf contains '://' %}
+                href="{{ page.professional_cv_pdf }}"
+              {% else %}
+                href="{{ page.professional_cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+              {% endif %}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-sm btn-outline-secondary"
+              title="Download Professional CV"
+            >
+              <i class="fa-solid fa-file-pdf"></i> Professional
+            </a>
+          {% endif %}
+        </div>
       </h1>
       {% if page.description %}
         <p class="post-description">{{ page.description }}</p>
@@ -57,20 +75,38 @@ layout: default
     <header class="post-header">
       <h1 class="post-title">
         {{ page.title }}
-        {% if page.cv_pdf %}
-          <a
-            {% if page.cv_pdf contains '://' %}
-              href="{{ page.cv_pdf }}"
-            {% else %}
-              href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
-            {% endif %}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="float-right"
-          >
-            <i class="fa-solid fa-file-pdf"></i>
-          </a>
-        {% endif %}
+        <div class="float-right">
+          {% if page.cv_pdf %}
+            <a
+              {% if page.cv_pdf contains '://' %}
+                href="{{ page.cv_pdf }}"
+              {% else %}
+                href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+              {% endif %}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-sm btn-outline-primary me-2"
+              title="Download Academic CV"
+            >
+              <i class="fa-solid fa-file-pdf"></i> Academic
+            </a>
+          {% endif %}
+          {% if page.professional_cv_pdf %}
+            <a
+              {% if page.professional_cv_pdf contains '://' %}
+                href="{{ page.professional_cv_pdf }}"
+              {% else %}
+                href="{{ page.professional_cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+              {% endif %}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-sm btn-outline-secondary"
+              title="Download Professional CV"
+            >
+              <i class="fa-solid fa-file-pdf"></i> Professional
+            </a>
+          {% endif %}
+        </div>
       </h1>
       {% if page.description %}
         <p class="post-description">{{ page.description }}</p>

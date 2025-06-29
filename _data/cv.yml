@@ -30,6 +30,25 @@
   type: text
   contents: As a PhD candidate, my research combines expertise in data science, machine learning, and large language models to address stereotype leakage and bias in AI-generated user representations, particularly for marginalized communities. I develop demographically accurate and culturally grounded personas using retrieval-augmented generation (RAG) frameworks and open-source LLMs. My work emphasizes inclusive data collection, rigorous evaluation methodologies, and ethical frameworks, ensuring that AI systems authentically represent underrepresented groups and align with the principles of responsible AI.
 
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: AI Ethics and Bias Mitigation
+      items:
+        - Stereotype leakage and bias in AI-generated user representations
+        - Ethical frameworks for AI systems serving marginalized communities
+        - Algorithmic fairness in persona development
+    - title: Human-Computer Interaction
+      items:
+        - AI-generated personas for social good
+        - Inclusive design methodologies
+        - Cross-cultural AI applications
+    - title: Machine Learning Applications
+      items:
+        - Large language models for user representation
+        - Retrieval-augmented generation frameworks
+        - Generative AI and evaluation methodologies
+        
 - title: Education
   type: time_table
   contents:
@@ -318,21 +337,3 @@
       items:
         - "Keynote Speaker, 5th - 7th International Conference on Aerospace Science and Engineering"
 
-- title: Research Interests
-  type: nested_list
-  contents:
-    - title: AI Ethics and Bias Mitigation
-      items:
-        - Stereotype leakage and bias in AI-generated user representations
-        - Ethical frameworks for AI systems serving marginalized communities
-        - Algorithmic fairness in persona development
-    - title: Human-Computer Interaction
-      items:
-        - AI-generated personas for social good
-        - Inclusive design methodologies
-        - Cross-cultural AI applications
-    - title: Machine Learning Applications
-      items:
-        - Large language models for user representation
-        - Retrieval-augmented generation frameworks
-        - Generative AI and evaluation methodologies
