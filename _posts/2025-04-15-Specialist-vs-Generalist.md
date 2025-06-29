@@ -11,8 +11,6 @@ authors:
   - name: Danial Amin
     url: "https://linkedin.com/in/danial-amin"
     affiliations:
-      name: Samsung Design Innovation Center, France 
-    affiliations:
       name: University of Vaasa, Finland
 
 bibliography: 2025-03-15-persona-driven-ai.bib
