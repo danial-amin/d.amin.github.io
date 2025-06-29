@@ -54,37 +54,37 @@
   contents:
     - title: Doctor of Science in Business Administration and Economics
       institution: University of Vaasa, Finland
-      year: Jan 2025 - Present
+      year: 2025 - Present
       description:
         - On-Campus, Finland
     - title: Masters in Business Administration
       institution: Rennes School of Business
-      year: Sep 2023 - Sep 2024
+      year: 2023 - 2024
       description:
         - On-Campus, France
     - title: Micro Masters in Statistics and Data Science
       institution: Massachusetts Institute of Technology
-      year: Aug 2019 - Nov 2023
+      year: 2019 - 2023
       description:
         - Distance Learning, USA
     - title: Micro Masters in Business - Data, Insights, and Analytics
       institution: University of Wisconsin, Madison
-      year: Aug 2022 - May 2023
+      year: 2022 - 2023
       description:
         - Distance Learning, USA
     - title: Micro Masters in Data Science
       institution: University of California San Diego
-      year: Aug 2021 - Mar 2023
+      year: 2021 - 2023
       description:
         - Distance Learning, USA
     - title: Design Thinking
       institution: Rochester Institute of Technology
-      year: Jan 2022 - Nov 2023
+      year: 2022 - 2023
       description:
         - Distance Learning, USA
     - title: B.S. in Aerospace Engineering
       institution: Institute of Space Technology
-      year: Sep 2013 - Aug 2017
+      year: 2013 - 2017
       description:
         - On-Campus, Pakistan
 
@@ -93,13 +93,13 @@
   contents:
     - title: AI Research Scientist
       institution: Samsung Design Innovation Center
-      year: Nov 2024 - Present
+      year: 2024 - Present
       description:
         - Developing the internal design companion for product and computational designers, combining the Generative and Predictive AI solutions to support data-driven design optimization
         - Spearheading development of multi-stages unstructured DB to act as ground truth for the LLM to enhance the data-driven design optimization process at SDIC
     - title: AI & Data Science Lead
       institution: i13 Ventures Studio
-      year: Sep 2023 - Nov 2024
+      year: 2023 - 2024
       description:
         - Developed an LLM-based venture innovator, improving product performance by grounding and contextualizing the model through multi-query, re-ranking RAG algorithms
         - Created AI-based financial advisor, optimizing savings and investment plans by 25% through explainable AI advice using observer/observee agentic framework
@@ -108,34 +108,34 @@
         - Envisioned AI and ML strategy, leading to a 15% improvement in organizational efficiency
     - title: Head of Data Analytics | Lead Data Scientist
       institution: Abacus Global
-      year: Feb 2023 - Sep 2023
+      year: 2023
       description:
         - Improved data processing speed by 40% and predictive analytics model accuracy by 25% through the implementation of a big data analytics framework
         - Led a cross-functional team to drive data-centric strategies, addressing biases and ensuring fair data practices
         - Developed solutions that improved customer satisfaction by 30% by addressing biases in data analysis
     - title: Lead Data Scientist
       institution: Automat Solutions Inc
-      year: Feb 2022 - Feb 2023
+      year: 2022 - 2023
       description:
         - Built machine learning pipelines for battery performance prediction, achieving 95% accuracy by accurately estimating the algorithmic uncertainties
         - Optimized battery material performance, increasing throughput by 40%, by using a combination of optimization algorithms
         - Automated ML pipelines, classifying chemical compositions with 90% precision, focusing on explainability and fairness
     - title: Lead ML Engineer
       institution: Omdena Inc
-      year: Feb 2021 - Feb 2022
+      year: 2021 - 2022
       description:
         - Improved image classification model accuracy by 12%, leading a team of 5 engineers to tackle recall minimization by incorporating HIL feedback
         - Developed an object recognition pipeline, enhancing detection accuracy by 15%, with a focus on reducing bias in image datasets
     - title: Assistant Manager
       institution: Government of Pakistan
-      year: Aug 2017 - Nov 2022
+      year: 2017 - 2022
       description:
         - Implemented a fuel consumption estimator, increasing accuracy by 72%, by developing surrogate model
         - Developed a SMART Maintenance System, optimizing schedules for 52 aircraft components through anomaly detection algorithm in time series data
         - Introduced AI-enabled early warning systems, reducing flight risks by 27% through risk assessment models
     - title: Teaching Assistant
       institution: Institute of Space Technology
-      year: Aug 2016 - Aug 2017
+      year: 2016 - 2017
       description:
         - Assisted in Aero-Vehicle Performance and Design courses by providing hands-on tutorials and problem-solving exercises
         - Supported course material development, enhancing the learning experience for over 100 students by focusing on hands-on and applied content
@@ -336,4 +336,3 @@
     - year: 2017-21
       items:
         - "Keynote Speaker, 5th - 7th International Conference on Aerospace Science and Engineering"
-
