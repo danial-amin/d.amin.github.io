@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Fairness in User Representation, Personas for Social Good, GenAI Personas, Global South .
+subtitle: Fairness in Generative AI, FaAct Human Computer Interaction, User Representation, Personas for Social Good, GenAI Personas, Global South
 profile:
   align: right
   image: prof_pic.jpg
