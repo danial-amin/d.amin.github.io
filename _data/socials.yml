@@ -28,8 +28,8 @@ orcid_id: 0009-0000-7597-2267 # your ORCID ID
 # pinterest_id: # your pinterest id
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
-# research_gate_profile: # your profile on ResearchGate
-rss_icon: true # comment this line to hide the RSS icon
+research_gate_profile: Danial-Amin-6 # your profile on ResearchGate
+#rss_icon: false # comment this line to hide the RSS icon
 scholar_userid: anC0OlUAAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
@@ -38,11 +38,11 @@ scholar_userid: anC0OlUAAAAJ # your Google Scholar ID
 # telegram_username: # your Telegram user name
 # unsplash_id: # your unsplash id
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
-# whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
+whatsapp_number: +33677184151# your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 # wikidata_id: # your wikidata id
 # wikipedia_id: # your wikipedia id (Case sensitive)
-# work_url: # work page URL
-# x_username: # your X handle
+work_url: https://personateam.xyz/ # work page URL
+x_username: kafka_soul # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 #custom_social: # can be any name here other than the ones already defined above
