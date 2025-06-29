@@ -167,11 +167,11 @@ ninja.data = [{
           window.open("https://orcid.org/0009-0000-7597-2267", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-researchgate',
+        title: 'ResearchGate',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://www.researchgate.net/profile/Danial-Amin-6/", "_blank");
         },
       },{
         id: 'social-scholar',
@@ -179,6 +179,27 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=anC0OlUAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-whatsapp',
+        title: 'whatsapp',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://wa.me/+33677184151# your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)", "_blank");
+        },
+      },{
+        id: 'social-work',
+        title: 'Work',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://personateam.xyz/", "_blank");
+        },
+      },{
+        id: 'social-x',
+        title: 'X',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://twitter.com/kafka_soul", "_blank");
         },
       },{
       id: 'light-theme',
