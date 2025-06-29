@@ -90,15 +90,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-i-graduated-from-rennes-school-of-business-as-an-mba-graduate-with-distinction-under-the-french-excellence-scholarship-program-for-climate-change-2-2023-2024-read-here",
+            },},{id: "news-i-graduated-from-rennes-school-of-business-as-an-mba-graduate-with-distinction-under-the-french-excellence-scholarship-program-for-climate-change-2-2023-2024-read-here",
           title: 'I graduated from Rennes School of Business as an MBA graduate with distinction...',
           description: "",
           section: "News",},{id: "projects-project-1",
