@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-the-hidden-costs-of-ai-development-what-i-39-ve-learned-working-across-global-tech-ecosystems",
+        },{id: "post-the-quot-yes-sir-quot-problem-why-llms-can-39-t-disagree-and-what-this-means-for-ai-development",
+        
+          title: "The &quot;Yes Sir&quot; Problem - Why LLMs Can&#39;t Disagree and What This Means...",
+        
+        description: "Large Language Models exhibit a fundamental inability to meaningfully disagree with users, not due to safety constraints but because of deeper limitations in reasoning and argumentation capabilities. This compliance bias has profound implications for AI development and human-AI interaction.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/yes-man/";
+          
+        },
+      },{id: "post-the-hidden-costs-of-ai-development-what-i-39-ve-learned-working-across-global-tech-ecosystems",
         
           title: "The Hidden Costs of AI Development - What I&#39;ve Learned Working Across Global...",
         
@@ -94,17 +105,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/deepseek/";
-          
-        },
-      },{id: "post-the-quot-yes-sir-quot-problem-why-llms-can-39-t-disagree-and-what-this-means-for-ai-development",
-        
-          title: "The &quot;Yes Sir&quot; Problem - Why LLMs Can&#39;t Disagree and What This Means...",
-        
-        description: "Large Language Models exhibit a fundamental inability to meaningfully disagree with users, not due to safety constraints but because of deeper limitations in reasoning and argumentation capabilities. This compliance bias has profound implications for AI development and human-AI interaction.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/yes-man/";
           
         },
       },{id: "books-the-godfather",
