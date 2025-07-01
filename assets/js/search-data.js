@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-the-quot-yes-sir-quot-problem-why-llms-can-39-t-disagree-and-what-this-means-for-ai-development",
+        },{id: "post-personality-ai",
+        
+          title: "Personality_ai",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/personality_ai/";
+          
+        },
+      },{id: "post-the-quot-yes-sir-quot-problem-why-llms-can-39-t-disagree-and-what-this-means-for-ai-development",
         
           title: "The &quot;Yes Sir&quot; Problem - Why LLMs Can&#39;t Disagree and What This Means...",
         
