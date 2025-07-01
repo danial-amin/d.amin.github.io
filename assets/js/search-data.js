@@ -30,15 +30,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-personality-ai",
+        },{id: "post-",
         
-          title: "Personality_ai",
+          title: "",
         
         description: "",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/personality_ai/";
+            window.location.href = "/blog/2025/2025-06-30-personality_ai/";
           
         },
       },{id: "post-the-quot-yes-sir-quot-problem-why-llms-can-39-t-disagree-and-what-this-means-for-ai-development",
