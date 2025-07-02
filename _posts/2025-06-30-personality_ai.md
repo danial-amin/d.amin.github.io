@@ -13,7 +13,7 @@ authors:
     affiliations:
       name: Samsung Design Innovation Center, France
 
-bibliography: 2025-01-27-llm-personality.bib
+bibliography: 2025-06-30-llm-personality.bib
 
 toc:
   - name: The Personality Imperative
