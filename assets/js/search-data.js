@@ -30,15 +30,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-",
+        },{id: "post-the-case-for-personality-in-llm-agents-why-character-driven-ai-is-essential-for-effective-human-computer-interaction",
         
-          title: "",
+          title: "The Case for Personality in LLM Agents - Why Character-Driven AI is Essential...",
         
-        description: "",
+        description: "Designing personality into LLM agents isn&#39;t cosmetic enhancement—it&#39;s a fundamental requirement for creating trustworthy, effective, and sustainable human-AI interactions. This article argues for deliberate personality design as a core component of AI agent architecture.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/2025-06-30-personality_ai/";
+            window.location.href = "/blog/2025/personality_ai/";
           
         },
       },{id: "post-the-quot-yes-sir-quot-problem-why-llms-can-39-t-disagree-and-what-this-means-for-ai-development",
