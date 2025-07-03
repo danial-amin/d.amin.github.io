@@ -118,6 +118,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/deepseek/";
           
         },
+      },{id: "post-the-representation-crisis-how-llm-based-synthetic-users-obscure-rather-than-illuminate-user-understanding",
+        
+          title: "The Representation Crisis - How LLM-Based Synthetic Users Obscure Rather Than Illuminate User...",
+        
+        description: "The proliferation of LLM-generated synthetic users in design and research creates a fundamental crisis of representation that undermines the very purpose of user-centered design. This analysis exposes the clarity deficit inherent in synthetic user generation and its profound implications for design validity.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/representation/";
+          
+        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
