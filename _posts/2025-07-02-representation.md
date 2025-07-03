@@ -4,7 +4,7 @@ title: The Representation Crisis - How LLM-Based Synthetic Users Obscure Rather 
 description: The proliferation of LLM-generated synthetic users in design and research creates a fundamental crisis of representation that undermines the very purpose of user-centered design. This analysis exposes the clarity deficit inherent in synthetic user generation and its profound implications for design validity.
 tags: synthetic-users llm user-research representation design-methodology
 giscus_comments: true
-date: 2025-01-27
+date: 2025-07-02
 featured: true
 
 authors:
