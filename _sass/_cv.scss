@@ -82,6 +82,91 @@ div.container-links {
   margin-bottom: 0.5rem;
 }
 
+/* CV Button Styles for Light and Dark Themes */
+
+/* Light theme (default) */
+.cv-btn-academic {
+  color: #007bff;
+  border-color: #007bff;
+  background-color: transparent;
+}
+
+.cv-btn-academic:hover {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.cv-btn-professional {
+  color: #6c757d;
+  border-color: #6c757d;
+  background-color: transparent;
+}
+
+.cv-btn-professional:hover {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+/* Dark theme */
+[data-theme="dark"] .cv-btn-academic,
+html[data-theme="dark"] .cv-btn-academic,
+body[data-theme="dark"] .cv-btn-academic {
+  color: #66b3ff;
+  border-color: #66b3ff;
+  background-color: transparent;
+}
+
+[data-theme="dark"] .cv-btn-academic:hover,
+html[data-theme="dark"] .cv-btn-academic:hover,
+body[data-theme="dark"] .cv-btn-academic:hover {
+  color: #000;
+  background-color: #66b3ff;
+  border-color: #66b3ff;
+}
+
+[data-theme="dark"] .cv-btn-professional,
+html[data-theme="dark"] .cv-btn-professional,
+body[data-theme="dark"] .cv-btn-professional {
+  color: #adb5bd;
+  border-color: #adb5bd;
+  background-color: transparent;
+}
+
+[data-theme="dark"] .cv-btn-professional:hover,
+html[data-theme="dark"] .cv-btn-professional:hover,
+body[data-theme="dark"] .cv-btn-professional:hover {
+  color: #000;
+  background-color: #adb5bd;
+  border-color: #adb5bd;
+}
+
+/* Alternative approach if your theme uses a different dark mode selector */
+@media (prefers-color-scheme: dark) {
+  .cv-btn-academic {
+    color: #66b3ff;
+    border-color: #66b3ff;
+  }
+  
+  .cv-btn-academic:hover {
+    color: #000;
+    background-color: #66b3ff;
+    border-color: #66b3ff;
+  }
+  
+  .cv-btn-professional {
+    color: #adb5bd;
+    border-color: #adb5bd;
+  }
+  
+  .cv-btn-professional:hover {
+    color: #000;
+    background-color: #adb5bd;
+    border-color: #adb5bd;
+  }
+}
+
 /*****************************
  * CV MAP styles
  *****************************/
