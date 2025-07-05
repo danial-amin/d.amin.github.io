@@ -243,7 +243,7 @@ By embracing this approach, organizations can develop AI systems that deliver de
 *What are your thoughts on persona-driven AI architecture? Have you experimented with specialized AI agents in your organization? Share your experiences in the comments below.*
 
 ---
-
+*This work has been prepared in collaboration with a Generative AI language model (LLM), which contributed to drafting and refining portions of the text under the author’s direction.*
 ## References
 
 [^1]: Bommasani, R., Hudson, D. A., Adeli, E., Altman, R., Arora, S., von Arx, S., ..., & Liang, P. (2021). On the opportunities and risks of foundation models. *arXiv preprint arXiv:2108.07258*. https://arxiv.org/abs/2108.07258

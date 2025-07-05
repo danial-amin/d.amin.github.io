@@ -460,3 +460,6 @@ The time has come to move beyond the mechanistic conception of intelligence towa
 ---
 
 *This analysis reflects a systematic, evidence-based approach to agent personality design—itself a manifestation of the kind of methodical, thorough personality that effective collaboration requires. Different personality types might approach this question entirely differently, which is precisely why we need multiple, specialized agents rather than one impossible generalist.*
+
+---
+*This work has been prepared in collaboration with a Generative AI language model (LLM), which contributed to drafting and refining portions of the text under the author’s direction.*

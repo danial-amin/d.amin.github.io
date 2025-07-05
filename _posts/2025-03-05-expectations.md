@@ -196,3 +196,6 @@ The most successful implementations will neither underestimate GenAI's transform
 ---
 
 *How has your organization approached the challenge of setting realistic expectations for GenAI implementation? What frameworks have proven most effective in your executive discussions? Share your experiences and insights in the comments below.*
+
+---
+*This work has been prepared in collaboration with a Generative AI language model (LLM), which contributed to drafting and refining portions of the text under the author’s direction.*

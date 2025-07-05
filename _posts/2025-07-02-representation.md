@@ -442,3 +442,6 @@ The choice is ours: we can allow synthetic users to systematically degrade the q
 ---
 
 *This analysis itself reflects the kind of critical evaluation that synthetic users cannot provide—the ability to challenge prevailing assumptions, identify systemic problems, and propose alternative approaches based on independent analysis rather than algorithmic optimization. These distinctly human capacities become more, not less, important as synthetic alternatives proliferate.*
+
+---
+*This work has been prepared in collaboration with a Generative AI language model (LLM), which contributed to drafting and refining portions of the text under the author’s direction.*
